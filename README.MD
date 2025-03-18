@@ -1,17 +1,19 @@
 # Shopper Project
 
+**Shopper** is a web-based application designed to streamline the shoe shopping experience. It allows users to browse various shoe products, add items to their cart, and complete purchases efficiently. The project is built using `Java` and runs on a `Tomcat` server, providing a robust and scalable solution for online shoe shopping. Additionally, it leverages `htmx` for dynamic content updates and `Bootstrap` for responsive design.
+
 ## Prerequisites
 
-- Java 17
-- NetBeans 17
-- Tomcat 10
+- **Java 17:** Download [here](https://www.oracle.com/java/technologies/downloads/)
+- **NetBeans 17:** Download [here](https://netbeans.apache.org/front/main/download/archive/)
+- **Tomcat 10:** Download [here](https://tomcat.apache.org/download-10.cgi)
 
 ## Getting Started
 
 1. Clone the repository:
 
 ```sh
-git clone <repository_url>
+git clone https://github.com/ptt98hd/shopper.git
 ```
 
 2. Open the project with NetBeans.
