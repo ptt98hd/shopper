@@ -17,14 +17,14 @@ The project is built using `Java` and runs on a `Tomcat` server, providing a rob
 
 ## Getting Started
 
-1. Clone the repository
+1. **Clone the repository**
 
 ```sh
 git clone https://github.com/ptt98hd/shopper.git
 ```
 
-2. Run database script: Open & execute `shopper.sql` in `SSMS`
+2. **Run database script:** Open & execute `shopper.sql` in `SSMS`
 
-3. Open the project with NetBeans.
+3. **Open the project with NetBeans.**
 
-4. Run the web application on Tomcat.
+4. **Run the web application on Tomcat.**
