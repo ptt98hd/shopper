@@ -1,6 +1,12 @@
 # Shopper Project
 
-**Shopper** is a web-based application designed to streamline the shoe shopping experience. It allows users to browse various shoe products, add items to their cart, and complete purchases efficiently. The project is built using `Java` and runs on a `Tomcat` server, providing a robust and scalable solution for online shoe shopping. Additionally, it leverages `htmx` for dynamic content updates and `Bootstrap` for responsive design.
+**Shopper** is a web-based application designed to streamline the _online shoe shopping_ experience.
+
+It allows users to browse various shoe products, add items to their cart, and complete purchases efficiently.
+
+It also includes features for sellers to manage their products and sales.
+
+The project is built using `Java` and runs on a `Tomcat` server, providing a robust and scalable solution for online shoe shopping. Additionally, it leverages `htmx` for dynamic content updates, `Bootstrap` for responsive design, and `SQL Server` for database management.
 
 ## Prerequisites
 
