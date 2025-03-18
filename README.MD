@@ -23,9 +23,7 @@ The project is built using `Java` and runs on a `Tomcat` server, providing a rob
 git clone https://github.com/ptt98hd/shopper.git
 ```
 
-2. Run database script
-
-Open `shopper.sql` and execute it in `SSMS`
+2. Run database script: Open & execute `shopper.sql` in `SSMS`
 
 3. Open the project with NetBeans.
 
