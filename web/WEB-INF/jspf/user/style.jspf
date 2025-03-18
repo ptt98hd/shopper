@@ -1,0 +1,107 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" type="image/x-icon" href="/shopper/assets/favicon.ico">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mukta:300,400,700">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="/shopper/assets/user/fonts/icomoon/style.css">
+<link rel="stylesheet" href="/shopper/assets/user/css/bootstrap.min.css">
+<link rel="stylesheet" href="/shopper/assets/user/css/magnific-popup.css">
+<link rel="stylesheet" href="/shopper/assets/user/css/jquery-ui.css">
+<link rel="stylesheet" href="/shopper/assets/user/css/owl.carousel.min.css">
+<link rel="stylesheet" href="/shopper/assets/user/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="/shopper/assets/user/css/aos.css">
+<link rel="stylesheet" href="/shopper/assets/user/css/style.css">
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+	*{
+		font-family: "Quicksand", sans-serif;
+		font-weight: 400;
+	}
+
+	.product-name {
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		line-height: 2rem;
+		height: 4rem;
+		font-size: 1.15rem;
+	}
+
+	input[type="number"]::-webkit-inner-spin-button,
+	input[type="number"]::-webkit-outer-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+
+	#snackbar {
+		visibility: hidden;
+		min-width: 250px;
+		margin-left: -125px;
+		background-color: #333;
+		color: #fff;
+		text-align: center;
+		border-radius: 2px;
+		padding: 16px;
+		position: fixed;
+		z-index: 1;
+		left: 50%;
+		bottom: 30px;
+	}
+
+	#snackbar.show {
+		visibility: visible;
+		-webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+		animation: fadein 0.5s, fadeout 0.5s 2.5s;
+	}
+
+	@-webkit-keyframes fadein {
+		from {
+			bottom: 0;
+			opacity: 0;
+		}
+		to {
+			bottom: 30px;
+			opacity: 1;
+		}
+	}
+
+	@keyframes fadein {
+		from {
+			bottom: 0;
+			opacity: 0;
+		}
+		to {
+			bottom: 30px;
+			opacity: 1;
+		}
+	}
+
+	@-webkit-keyframes fadeout {
+		from {
+			bottom: 30px;
+			opacity: 1;
+		}
+		to {
+			bottom: 0;
+			opacity: 0;
+		}
+	}
+
+	@keyframes fadeout {
+		from {
+			bottom: 30px;
+			opacity: 1;
+		}
+		to {
+			bottom: 0;
+			opacity: 0;
+		}
+	}
+</style>

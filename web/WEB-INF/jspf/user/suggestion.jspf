@@ -1,0 +1,29 @@
+<%@ page pageEncoding="UTF-8" %>
+
+<div class="nonloop-block-3 owl-carousel">
+	<c:forEach var="product" items="${products}">
+		<div class="item h-100">
+			<div class="card block-4 h-100 text-center border-0 rounded-0">
+				<figure class="card-img-top block-4-image mb-0">
+					<a href="detail?productId=${product.productId}">
+						<img src="${product.productImg}" alt="${product.productName}" class="card-img-top">
+					</a>
+				</figure>
+				<div class="card-body block-4-text">
+					<a href="detail?productId=${product.productId}"
+					   class="h6 text-primary product-name mb-0">
+						${product.productName}
+					</a>
+				</div>
+				<div class="card-footer bg-white">
+					<p class="mb-0">
+						${product.category.categoryName} - ${product.brand.brandName}
+					</p>
+					<p class="text-primary mb-0">
+						$ <fmt:formatNumber value="${product.price}"/>
+					</p>
+				</div>
+			</div>
+		</div>
+	</c:forEach>
+</div>

@@ -1,0 +1,48 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<div id="layoutSidenav_nav">
+	<nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+		<div class="sb-sidenav-menu">
+			<div class="nav">
+				<!--Home-->
+				<div class="sb-sidenav-menu-heading">Home</div>
+				<a class="nav-link" href="/shopper/admin/dashboard">
+					<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+					Dashboard
+				</a>
+
+				<!--Admin-->
+				<div class="sb-sidenav-menu-heading">Manage</div>
+				<a class="nav-link" href="/shopper/admin/category">
+					<div class="sb-nav-link-icon"><i class="fa-solid fa-list"></i></div>
+					Category
+				</a>
+				<a class="nav-link" href="/shopper/admin/brand">
+					<div class="sb-nav-link-icon"><i class="fa-solid fa-tag"></i></div>
+					Brand
+				</a>
+				<a class="nav-link" href="/shopper/admin/color">
+					<div class="sb-nav-link-icon"><i class="fa-solid fa-droplet"></i></div>
+					Color
+				</a>
+				<a class="nav-link" href="/shopper/admin/size">
+					<div class="sb-nav-link-icon"><i class="fa-solid fa-ruler"></i></div>
+					Size
+				</a>
+				<a class="nav-link" href="/shopper/admin/product">
+					<div class="sb-nav-link-icon"><i class="fa-brands fa-product-hunt"></i></div>
+					Product
+				</a>
+				<a class="nav-link" href="/shopper/admin/order">
+					<div class="sb-nav-link-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+					Order
+				</a>
+			</div>
+		</div>
+		<div class="sb-sidenav-footer">
+			<div class="small">Logged in as:</div>
+			<b>${admin.fullname}</b>
+		</div>
+	</nav>
+</div>

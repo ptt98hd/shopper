@@ -1,0 +1,36 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark py-3 pe-2">
+	<!--<div class="container-fluid">-->
+	<a class="navbar-brand p-3" href="/shopper/admin/dashboard">
+		SHOPPER
+	</a>
+	<button class="btn btn-secondary order-1 order-lg-0 ms-2 d-lg-none" id="sidebarToggle" href="#!">
+		<i class="fas fa-bars text-light"></i>
+	</button>
+
+	<!-- Navbar-->
+	<ul class="navbar-nav ms-auto my-2 my-md-0 gap-2">
+		<li class="nav-item">
+			<a href="/shopper/admin/account?get=signup" class="btn btn-success">
+				<i class="fa-solid fa-plus"></i>
+			</a>
+		</li>
+		<li class="nav-item">
+			<a href="/shopper/admin/account?get=update" class="btn btn-primary">
+				<i class="fa-solid fa-pen-to-square"></i>
+			</a>
+		</li>
+		<li class="nav-item">
+			<form action="/shopper/admin/account" method="post"
+				  class="ms-auto">
+				<button type="submit" name="submit" value="logout"
+						class="btn btn-danger">
+					<i class="fa-solid fa-right-from-bracket"></i>
+				</button>
+			</form>
+		</li>
+	</ul>
+	<!--</div>-->
+</nav>

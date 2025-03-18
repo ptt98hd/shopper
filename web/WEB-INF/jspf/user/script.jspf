@@ -1,0 +1,12 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<script src="/shopper/assets/user/js/jquery-3.3.1.min.js"></script>
+<script src="/shopper/assets/user/js/jquery-ui.js"></script>
+<script src="/shopper/assets/user/js/popper.min.js"></script>
+<script src="/shopper/assets/user/js/bootstrap.min.js"></script>
+<script src="/shopper/assets/user/js/owl.carousel.min.js"></script>
+<script src="/shopper/assets/user/js/jquery.magnific-popup.min.js"></script>
+<script src="/shopper/assets/user/js/aos.js"></script>
+<script src="/shopper/assets/user/js/main.js"></script>
+<script src="https://unpkg.com/htmx.org@2.0.3" integrity="sha384-0895/pl2MU10Hqc6jd4RvrthNlDiE9U1tWmX7WRESftEDRosgxNsQG/Ze9YMRzHq" crossorigin="anonymous"></script>
