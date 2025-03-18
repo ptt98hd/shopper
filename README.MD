@@ -10,18 +10,23 @@ The project is built using `Java` and runs on a `Tomcat` server, providing a rob
 
 ## Prerequisites
 
-- **Java 17:** Download [here](https://www.oracle.com/java/technologies/downloads/)
+- **Java JDK 17:** Download [here](https://www.oracle.com/java/technologies/downloads/)
 - **NetBeans 17:** Download [here](https://netbeans.apache.org/front/main/download/archive/)
 - **Tomcat 10:** Download [here](https://tomcat.apache.org/download-10.cgi)
+- **Micorosoft SQL-Server:** Download [Sql-Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) & [SSMS](https://learn.microsoft.com/en-us/ssms/download-sql-server-management-studio-ssms#download-ssms)
 
 ## Getting Started
 
-1. Clone the repository:
+1. Clone the repository
 
 ```sh
 git clone https://github.com/ptt98hd/shopper.git
 ```
 
-2. Open the project with NetBeans.
+2. Run database script
 
-3. Run the web application on Tomcat.
+Open `shopper.sql` and execute it in `SSMS`
+
+3. Open the project with NetBeans.
+
+4. Run the web application on Tomcat.
